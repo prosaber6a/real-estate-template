@@ -1,0 +1,8 @@
+.hero-section {
+    background-image: url(images/hero-background.png);
+    height: 100vh;
+}
+
+.container {
+    width: 1070px;
+}
