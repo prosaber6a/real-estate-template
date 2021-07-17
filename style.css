@@ -1,3 +1,4 @@
+
 .hero-section {
     background-image: url(images/hero-background.png);
     height: 100vh;
@@ -5,4 +6,45 @@
 
 .container {
     width: 1070px;
+    margin: 0 auto;
+}
+
+.navigation-bar {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar ul {
+    list-style: none;
+}
+
+.navigation-bar ul li {
+    display: inline;
+    margin-right: 3.75rem;
+}
+
+.nav-last-link {
+    margin-right: 0;
+    padding: 0.875rem 2.5rem;
+    background-color: #FFAC12;
+    border-top-right-radius: 1.125rem;
+}
+
+.nav-last-link a {
+    color: black;
+}
+
+.nav-last-link a i {
+    color: white;
+    margin-left: 0.5625rem;
+}
+
+.navigation-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
 }
