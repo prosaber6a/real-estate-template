@@ -1,7 +1,34 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
 
+
+/* utility css */
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+/* hero section */
 .hero-section {
     background-image: url(images/hero-background.png);
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53.125rem;
+}
+
+.gradient-bg {
+    background: linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%);
+    height: 53.125rem;
 }
 
 .container {
@@ -25,6 +52,17 @@
     margin-right: 3.75rem;
 }
 
+.navigation-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+.navigation-bar ul li a:hover {
+    color: black;
+}
+
 .nav-last-link {
     margin-right: 0;
     padding: 0.875rem 2.5rem;
@@ -33,18 +71,57 @@
 }
 
 .nav-last-link a {
-    color: black;
+    color: black !important;
 }
 
-.nav-last-link a i {
+.nav-last-link a:hover {
+    color: blanchedalmond !important;
+}
+
+.nav-last-link i {
     color: white;
     margin-left: 0.5625rem;
 }
 
-.navigation-bar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 0.9375rem;
-    font-weight: 700;
-    font-family: 'DM Sans', sans-serif;
+.intro {
+    margin-top: 7.375rem;
 }
+
+
+.intro h1 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    width: 32.5rem;
+}
+
+.intro p {
+    margin: 1.375rem 0 0 0;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 1.75rem;
+    width: 26.875rem;
+}
+
+.listing {
+    background-color: white;
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.listing a {
+    margin-left: 2.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.listing i {
+    color: #FFAC12;
+}
+
+/* end herosection */
